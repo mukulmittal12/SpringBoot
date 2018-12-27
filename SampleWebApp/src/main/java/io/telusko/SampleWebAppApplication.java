@@ -1,13 +1,13 @@
-package io.javabrains;
+package io.telusko;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CourseApiDataApplication {
+public class SampleWebAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CourseApiDataApplication.class, args);
+		SpringApplication.run(SampleWebAppApplication.class, args);
 	}
 
 }

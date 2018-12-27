@@ -8,11 +8,11 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.javabrains</groupId>
-	<artifactId>course-api-data</artifactId>
+	<groupId>io.telusko</groupId>
+	<artifactId>SampleWebApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>course-api-data</name>
-	<description>Simple Project to learn database connection</description>
+	<name>SampleWebApp</name>
+	<description>Simple Web Application</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -21,18 +21,16 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
-			<scope>runtime</scope>
+		    <groupId>org.apache.tomcat</groupId>
+		    <artifactId>tomcat-jasper</artifactId>
+		    <version>9.0.13</version>
 		</dependency>
+		
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
