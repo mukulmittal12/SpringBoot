@@ -8,11 +8,11 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.javabrains</groupId>
-	<artifactId>course-api-data</artifactId>
+	<groupId>io.telusko</groupId>
+	<artifactId>bootjpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>course-api-data</name>
-	<description>Simple Project to learn database connection</description>
+	<name>bootjpa</name>
+	<description>Simple Web Application</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -28,9 +28,17 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
+		    <groupId>org.apache.tomcat</groupId>
+		    <artifactId>tomcat-jasper</artifactId>
+		    <version>9.0.13</version>
+		</dependency>
+				
+		
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
